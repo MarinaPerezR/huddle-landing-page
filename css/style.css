@@ -133,11 +133,19 @@ footer a {
   main {
     max-width: 1440px;
   }
+
   .container {
     grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin: 0;
   }
 
-  h1, p {
+  .logo {
+    max-width: 10%;
+  }
+
+  h1,
+  p {
     text-align: left;
   }
 
